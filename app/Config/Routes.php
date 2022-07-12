@@ -36,7 +36,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('client-home', 'Client::index');
-
+$routes->match(["get", "post"],'contact-us', 'Client::contact');
+$routes->match(["get", "post"],'book-appointment', 'Client::appointment');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

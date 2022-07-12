@@ -1,3 +1,8 @@
+/***
+===================================
+   Slide show
+===================================
+***/
 let slideIndex = 0;
 showSlides();
 
@@ -12,7 +17,11 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
+/***
+===================================
+    FAQS questions
+===================================
+***/
 var coll = document.getElementsByClassName("questions");
 var i;
 
@@ -26,4 +35,17 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
+}
+
+/***
+===================================
+    Year slider
+===================================
+***/
+var slider = document.getElementById("yearRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
 }
