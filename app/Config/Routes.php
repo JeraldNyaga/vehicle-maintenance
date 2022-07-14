@@ -38,6 +38,16 @@ $routes->set404Override();
 $routes->get('client-home', 'Client::index');
 $routes->match(["get", "post"],'contact-us', 'Client::contact');
 $routes->match(["get", "post"],'book-appointment', 'Client::appointment');
+$routes->match(["get", "post"],'admin-dashboard', 'Admin::index');
+$routes->match(["get", "post"],'view-categories', 'Admin::listCategories');
+$routes->match(["get", "post"],'add-product', 'Admin::addProduct');
+$routes->match(["get", "post"],'list-products', 'Admin::listProducts');
+$routes->match(["get", "post"],'orders-list', 'Admin::listOrders');
+$routes->match(["get", "post"],'orders-details', 'Admin::ordersDetails');
+$routes->match(["get", "post"],'users-list', 'Admin::listUsers');
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
