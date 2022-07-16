@@ -45,8 +45,13 @@ $routes->match(["get", "post"],'list-products', 'Admin::listProducts');
 $routes->match(["get", "post"],'orders-list', 'Admin::listOrders');
 $routes->match(["get", "post"],'orders-details', 'Admin::ordersDetails');
 $routes->match(["get", "post"],'users-list', 'Admin::listUsers');
-
-
+            /** LOGIN/REGISTER ROUTES */
+$routes->match(["get", "post"],'register-user', 'Auth::register');
+$routes->match(["get", "post"],'login-user', 'Auth::login');
+$routes->get('logout-user', 'Auth::logout');
+            /**Profile change */
+$routes->match(["get", "post"],'client-profile', 'Profile::clientProfile');
+$routes->match(["get", "post"],'admin-profile', 'Profile::adminProfile');
 
 /*
  * --------------------------------------------------------------------

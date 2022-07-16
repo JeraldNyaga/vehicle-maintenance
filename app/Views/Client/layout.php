@@ -30,6 +30,17 @@
                 <li class="nav-item"><a class="nav-link" href="#">Appointment</a></li>
                 <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
             </ul>
+            <ul class="navbar-nav d-flex justify-content-end ">
+            <?php if (!session()->get('loggedUser')) : ?>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('register-user'); ?>">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('login-user'); ?>">Login</a></li>
+                <?php endif;?>
+                <?php if (session()->get('loggedUser')) : ?>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('logout-user'); ?>">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('-profile'); ?>">Welcome <?php 
+                echo session()->get("first_name"); ?>,</a></li>
+                <?php endif;?>
+            </ul>
         </div>
     </div>
 </nav>
@@ -98,5 +109,6 @@
 </footer>
 </div>
 <script src="<?php echo base_url('assets/js/home.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/Profile.js'); ?>"></script>
 </body>
 </html>

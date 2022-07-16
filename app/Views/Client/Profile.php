@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Profile</title>
-  <link rel="stylesheet" type="text/css" href="css/Profile_Style.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container">
+<?= $this->extend('Client/layout')?>
+<?= $this->section('content')?>
+<div class="container">
     <div class="main-body">
 
       <!-- Breadcrumb -->
@@ -92,7 +85,7 @@
 
 
      <!-- Edit Profile Form -->
-      <div class="card" id="profile-edit">
+      <div class="card" id="profile-edit" style="display: none;">
             <div class="card-body">
               <div class="row mb-3">
                 <div class="col-sm-3">
@@ -144,7 +137,4 @@
           </div>
     </div>
   </div>
-  <script src="<?php echo base_url('assets/js/Profile.js'); ?>"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+  <?=$this->endSection()?>

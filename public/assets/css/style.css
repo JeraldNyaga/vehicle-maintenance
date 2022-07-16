@@ -10,6 +10,13 @@
 .navbar-nav .nav-link{
   color:#fff;
 }
+.navbar-nav img{
+	margin-left: 15px;
+	margin-right: 40px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
 
 .aboveFold {
     font-family: Georgia, serif;
@@ -139,7 +146,7 @@ button a:hover{
   transition: background-color 0.9s ease;
 }
 
-.active, .dot:hover {
+.slideshow-container .active, .dot:hover {
   background-color: #717171;
 }
 

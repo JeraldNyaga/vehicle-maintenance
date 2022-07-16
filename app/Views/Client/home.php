@@ -4,7 +4,8 @@
     <div class="aboveFold" style="background:linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('<?php echo  base_url('assets/HomeImages/main.jpg'); ?>');display:grid;position:relative;background-size: cover;height:80%; width:100%;">
     <div class="content">
       <h1>Fix Once Perfectly</h1>
-      <h2>Our specialty is auto care in a professional manner</h2> 
+      <h2>Safe in our hands</h2>
+      <h3>Our specialty is auto care in a professional manner</h3> 
     <button class="btn btn-primary booknow"><a href="appointment.php">Book Appointment</a> </button>
       </div>
     </div>

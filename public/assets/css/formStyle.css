@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+}
+form{
+	display: inline-block;
+	margin-left: 0 auto;
+	margin-right: auto;
+	text-align: left;
+	width: 350px;
+}
+.row{
+padding-top: 35px;
+display: table;
+height: 100%;
+margin: 0 auto;
+}
+.col-md-4{
+border-style: solid;
+border-width: thin;
+display: table-cell;
+}
+h4{
+	text-align: center;
+}
