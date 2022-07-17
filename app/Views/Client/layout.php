@@ -12,38 +12,12 @@
    <link rel="stylesheet" href=" <?php echo  base_url('assets/css/bootstrap.min.css'); ?>">
    <link rel="stylesheet" href="<?php echo base_url('assets/css/appointment.css'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+      <link rel="stylesheet" href="<?php echo  base_url('assets/fonts/icomoon/style.css'); ?>">
+  <link rel="stylesheet" href="<?php echo  base_url('assets/css/style.css'); ?>">
     <title><?php if (!empty($page_title)) echo $page_title;?></title>
   </head>
   <body>
-   <nav class="container-fluid navbar navbar-expand-lg sticky-top navbar-dark py-1" style="background-color:black;  color:#fff;" >
-    <div class= "container-fluid">
-        <a class="navbar-brand" href="#"><img src="<?php echo  base_url('assets/HomeImages/logo.png'); ?>" alt="" width="auto" height="80"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Appointment</a></li>
-                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
-            </ul>
-            <ul class="navbar-nav d-flex justify-content-end ">
-            <?php if (!session()->get('loggedUser')) : ?>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('register-user'); ?>">Register</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('login-user'); ?>">Login</a></li>
-                <?php endif;?>
-                <?php if (session()->get('loggedUser')) : ?>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('logout-user'); ?>">Logout</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('-profile'); ?>">Welcome <?php 
-                echo session()->get("first_name"); ?>,</a></li>
-                <?php endif;?>
-            </ul>
-        </div>
-    </div>
-</nav>
+ 
 
 <?= $this->renderSection('content')?>
 
@@ -110,5 +84,10 @@
 </div>
 <script src="<?php echo base_url('assets/js/home.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/Profile.js'); ?>"></script>
+  <script src="<?php echo  base_url('assets/js/jquery-3.3.1.min.js'); ?>"></script>
+  <script src="<?php echo  base_url('assets/js/popper.min.js'); ?>"></script>
+  <script src=" <?php echo  base_url('assets/js/bootstrap.min.js'); ?>"></script>
+  <script src="<?php echo  base_url('assets/js/jquery.validate.min.js'); ?>"></script>
+  <script src="<?php echo  base_url('assets/js/main.js'); ?>"></script>
 </body>
 </html>

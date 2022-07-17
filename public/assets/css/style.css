@@ -378,3 +378,37 @@ button a:hover{
   }
 }
 
+/** CONTACT FORM */
+.contact-form .container{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+}
+.contact-form form{
+  display: inline-block;
+  margin-left: 0 auto;
+  margin-right: auto;
+  text-align: left;
+  width: 350px;
+}
+.contact-form .row{
+padding-top: 35px;
+display: table;
+height: 100%;
+margin: 0 auto;
+}
+.contact-form .col-md-8{
+border-style: solid;
+border-width: thin;
+display: table-cell;
+padding-right: 5px;
+padding-left: 5px;
+}
+.contact-form h4{
+  text-align: center;
+}
+.contact-form #contactform{
+  margin-right: auto;
+  margin-left: auto;
+}
