@@ -52,6 +52,20 @@ $routes->get('logout-user', 'Auth::logout');
             /**Profile change */
 $routes->match(["get", "post"],'client-profile', 'Profile::clientProfile');
 $routes->match(["get", "post"],'admin-profile', 'Profile::adminProfile');
+            /** EMPLOYEE ROUTES */
+$routes->match(["get", "post"],'add-category', 'Employee/Product::addCategory');
+$routes->match(["get", "post"],'list-category', 'Employee/Product::listCategory');
+$routes->match(["get", "post"],'edit-category', 'Employee/Product::editCategory');
+//sub-category route
+//$routes->get('add-subcategory', 'Admin/Product::index');
+$routes->match(["get", "post"],'add-subcategory', 'Employee/Product::addSubCategory');
+$routes->match(["get", "post"],'list-subcategory', 'Employee/Product::listSubcategory');
+$routes->match(["get", "post"],'edit-subcategory', 'Employee/Product::editSubcategory');
+//product routes route
+//$routes->get('add-product', 'Admin/Product::getSubcategory');
+$routes->match(["get", "post"],'add-product', 'Employee/Product::addProduct');
+$routes->match(["get", "post"],'list-products', 'Employee/Product::listProducts');
+$routes->match(["get", "post"],'edit-product', 'Employee/Product::editProduct');
 
 /*
  * --------------------------------------------------------------------
