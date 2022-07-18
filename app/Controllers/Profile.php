@@ -14,4 +14,8 @@ class Profile extends BaseController
  {
         return view( 'Admin/Profile' );
     }
+    public function employeeProfile()
+    {
+           return view( 'Employee/Profile' );
+       }
 }

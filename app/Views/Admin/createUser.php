@@ -1,10 +1,10 @@
-<?= $this->extend('layout/formLayout')?>
-<?= $this->section('login')?>
+<?= $this->extend('Admin/formLayout')?>
+<?= $this->section('usersForm')?>
 
 <div class="container" >
 	<div class="row" >
 		<div class="col-md-4 col-md-offset-3 rounded">
-			<h4 >Edit User</h4>
+			<h4 >Create User</h4>
 			<?php
  // To print success flash message
             if (session()->get("success")) {
@@ -25,18 +25,18 @@
                         </div>
                     </div>
                 <?php endif; ?>
-			<form method="POST" action="<?= base_url('Admin/User/editUser/' . $users['user_id']) ?>" id="user-register">
+			<form method="POST" action="<?= base_url('create-user')?>" id="user-register">
 				<div class="form-group p-2" >
 					<label for="first_name">First name</label>
-					<input type="text" id="first_name" name="first_name" class="form-control" value="<?= $users['first_name'] ?>" placeholder="Enter your First name">
+					<input type="text" id="first_name" name="first_name" class="form-control"  placeholder="Enter your First name">
 				</div>
 				<div class="form-group p-2" >
 					<label for="last_name">Last name</label>
-					<input type="text" id="last_name" name="last_name" class="form-control" value="<?= $users['last_name'] ?>" placeholder="Enter your Last name">
+					<input type="text" id="last_name" name="last_name" class="form-control"  placeholder="Enter your Last name">
 				</div>
 				<div class="form-group p-2" >
 					<label for="email">Email</label>
-					<input type="text" id="email" name="email" class="form-control" value="<?= $users['email'] ?>" placeholder="Enter your Email">
+					<input type="text" id="email" name="email" class="form-control"  placeholder="Enter your Email">
 				</div>
 				<div class="form-group p-2" >
 					<label for="password">Password</label>
@@ -50,7 +50,7 @@
 						<option>Male</option>
 					</select>
 				</div>
-				<div class="form-group p-2">
+					<div class="form-group p-2">
 					<label for="role">Role</label>
 					<select class="form-control" id="role" name="role">
 						<option value="">Select a role</option>
@@ -64,7 +64,7 @@
 					</select>
 				</div>
 				<div class="form-group p-2">
-					<button class="btn btn-primary btn-block" type="submit">Sign up</button>
+					<button class="btn btn-primary btn-block" type="submit">Create User</button>
 				</div>
 			</form>
 		</div>

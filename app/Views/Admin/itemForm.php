@@ -1,11 +1,11 @@
-<?= $this->extend('layout/formLayout')?>
+<?= $this->extend('Admin/formLayout')?>
 <?= $this->section('itemForm')?>
 
 <!--Registration-->
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-4  rounded">
+		<div class="col-md-4 col-md-offset-4 rounded">
 			<h4 >Product details</h4>
 			
 			<?php
@@ -24,14 +24,14 @@
                         </div>
                     </div>
                 <?php endif; ?>
-			<form action="<?= base_url('Admin/Product/editProduct/' . $products['product_id'])?>" method="POST" id="form-product" enctype="multipart/form-data">
+			<form action="<?= base_url('add-product')?>" method="POST" id="form-product" enctype="multipart/form-data">
 				<div class="form-group p-2" >
 					<label for="product_name">Product name</label>
-					<input type="text" id="product_name" name="product_name" class="form-control" value="<?= $products['product_name'] ?>" placeholder="Enter the name of the product">
+					<input type="text" id="product_name" name="product_name" class="form-control"  placeholder="Enter the name of the product">
 				</div>
 				<div class="form-group p-2">
 					<label for="product_description">Product description</label>
-					<input type="text" name='product_description' id="product_description" class="form-control" value="<?= $products['product_description'] ?>" placeholder="Enter the descrption of the product">
+					<input type="text" name='product_description' id="product_description" class="form-control"  placeholder="Enter the descrption of the product">
 				</div>
 				<div class="form-group p-2">
 					<label for="product_image">Product image</label>
@@ -40,17 +40,17 @@
 
 				<div class="form-group p-2">
 					<label for="unit_price">Product prize</label>
-					<input type="number" name='unit_price' id="unit_price" class="form-control" value="<?= $products['unit_price'] ?>" placeholder="Enter the prize of the product" >  
+					<input type="number" name='unit_price' id="unit_price" class="form-control"  placeholder="Enter the prize of the product" >  
 				</div>
 				
 				<div class="form-group p-2">
-					<label for="subcategory_id">Subcategory</label>
-					<select class="form-control" id="subcategory_id" name="subcategory_id">
-						<option value="">Select a Subcategory</option>
+					<label for="category_id">Category</label>
+					<select class="form-control" id="category_id" name="category_id">
+						<option value="">Select a category</option>
 						<?php
-						foreach($subcategories as $row)
+						foreach($categories as $row)
 						{
-							echo '<option value="'.$row['subcategory_id'].'">'.$row['subcategory_name'].'</option>';
+							echo '<option value="'.$row['category_id'].'">'.$row['category_name'].'</option>';
 						}
 
 						?>  
@@ -58,15 +58,14 @@
 				</div>
 				<div class="form-group p-2">
 					<label for="available_quantity">Quantity available</label>
-					<input type="number" name='available_quantity' id="available_quantity" class="form-control" value="<?= $products['available_quantity'] ?>" placeholder="Enter the quantity available" >  
+					<input type="number" name='available_quantity' id="available_quantity" class="form-control"  placeholder="Enter the quantity available" >  
 				</div>
 
 				<div class="form-group p-2" style="align-items: center;">
-					<button class="btn btn-primary btn-block" type="submit" name="Add/Edit_items" id="btn_save">Edit Product</button>
+					<button class="btn btn-primary btn-block" type="submit" name="Add/Edit_items" id="btn_save">Add Product</button>
 				</div>
 			</form>
 		</div>
-		
 	</div>
 </div>
 

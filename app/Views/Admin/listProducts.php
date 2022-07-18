@@ -35,13 +35,13 @@
 				<?php echo ' <td>'.$row['product_id'].'</td> '; ?>
 				<?php echo ' <td>'.$row['product_name'].'</td> '; ?>
 				<?php echo ' <td>'.$row['product_description'].'</td> '; ?>
-				<?php echo' <td><img src = "uploads/'.$row['product_image'].'" style="width: 180px; height:70px;"></td>'?>
+				<?php echo' <td><img src = "assets/productImages/'.$row['product_image'].'" style="width: 180px; height:100px;"></td>'?>
 				<?php echo ' <td>'.$row['unit_price'].'</td> '; ?>
 				
 				<?php echo ' <td>'.$row['available_quantity'].'</td> '; ?>
 				<td>
-                                    <a href="<?= base_url('Admin/Product/editProduct/' . $row['product_id']); ?>" class="btn btn-info" >Edit</a>
-                                    <a href="<?= base_url('Admin/Product/deleteProduct/' . $row['product_id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
+                                    <a href="<?= base_url('edit-product'. $row['product_id']); ?>" class="btn btn-info" >Edit</a>
+                                    <a href="<?= base_url('delete-product'. $row['product_id'] ); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
                                 </td>
 			</tr>
 		</tbody>

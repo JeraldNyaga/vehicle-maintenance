@@ -31,8 +31,8 @@
 				<?php echo ' <td>'.$row['category_id'].'</td> '; ?>
 				<?php echo ' <td>'.$row['category_name'].'</td> '; ?>
 				<td>
-                                    <a href="<?= base_url('Admin/Product/editCategory/' . $row['category_id']); ?>" class="btn btn-info" >Edit</a>
-                                    <a href="<?= base_url('Admin/Product/deleteCategory/' . $row['category_id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
+                                    <a href="<?= base_url('edit-category' . $row['category_id']); ?>" class="btn btn-info" >Edit</a>
+                                    <a href="<?= base_url('delete-category' . $row['category_id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
                                 </td>
 			</tr>
 		</tbody>

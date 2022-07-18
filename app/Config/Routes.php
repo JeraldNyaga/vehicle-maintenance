@@ -35,37 +35,47 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+            /** LOGIN/REGISTER ROUTES */
+            $routes->match(["get", "post"],'register-user', 'Auth::register');
+            $routes->match(["get", "post"],'login-user', 'Auth::login');
+            $routes->get('logout-user', 'Auth::logout');
+                        /**Profile change */
+            $routes->match(["get", "post"],'client-profile', 'Profile::clientProfile');
+            $routes->match(["get", "post"],'admin-profile', 'Profile::adminProfile');
+            $routes->match(["get", "post"],'employee-profile', 'Profile::employeeProfile');
+
+            
 $routes->get('client-home', 'Client::index');
 $routes->match(["get", "post"],'contact-us', 'Client::contact');
 $routes->match(["get", "post"],'book-appointment', 'Client::appointment');
+
+                 /** ADMIN ROUTES */
 $routes->match(["get", "post"],'admin-dashboard', 'Admin::index');
-$routes->match(["get", "post"],'view-categories', 'Admin::listCategories');
-$routes->match(["get", "post"],'add-product', 'Admin::addProduct');
-$routes->match(["get", "post"],'list-products', 'Admin::listProducts');
 $routes->match(["get", "post"],'orders-list', 'Admin::listOrders');
 $routes->match(["get", "post"],'orders-details', 'Admin::ordersDetails');
-$routes->match(["get", "post"],'users-list', 'Admin::listUsers');
-            /** LOGIN/REGISTER ROUTES */
-$routes->match(["get", "post"],'register-user', 'Auth::register');
-$routes->match(["get", "post"],'login-user', 'Auth::login');
-$routes->get('logout-user', 'Auth::logout');
-            /**Profile change */
-$routes->match(["get", "post"],'client-profile', 'Profile::clientProfile');
-$routes->match(["get", "post"],'admin-profile', 'Profile::adminProfile');
-            /** EMPLOYEE ROUTES */
-$routes->match(["get", "post"],'add-category', 'Employee/Product::addCategory');
-$routes->match(["get", "post"],'list-category', 'Employee/Product::listCategory');
-$routes->match(["get", "post"],'edit-category', 'Employee/Product::editCategory');
-//sub-category route
-//$routes->get('add-subcategory', 'Admin/Product::index');
-$routes->match(["get", "post"],'add-subcategory', 'Employee/Product::addSubCategory');
-$routes->match(["get", "post"],'list-subcategory', 'Employee/Product::listSubcategory');
-$routes->match(["get", "post"],'edit-subcategory', 'Employee/Product::editSubcategory');
+//Users route
+$routes->match(["get", "post"],'create-user', 'Admin::addUser');
+$routes->match(["get", "post"],'list-Users', 'Admin::listUsers');
+$routes->match(["get", "post"],'edit-user(:num)', 'Admin::editUser/$1');
+$routes->match(["get", "post"],'delete-user(:num)', 'Admin::deleteUser/$1');
+//category route
+$routes->match(["get", "post"],'add-category', 'Admin::addCategory');
+$routes->match(["get", "post"],'list-category', 'Admin::listCategory');
+$routes->match(["get", "post"],'edit-category(:num)', 'Admin::editCategory/$1');
+$routes->match(["get", "post"],'delete-category(:num)', 'Admin::deleteCategory/$1');
+
 //product routes route
-//$routes->get('add-product', 'Admin/Product::getSubcategory');
-$routes->match(["get", "post"],'add-product', 'Employee/Product::addProduct');
-$routes->match(["get", "post"],'list-products', 'Employee/Product::listProducts');
-$routes->match(["get", "post"],'edit-product', 'Employee/Product::editProduct');
+$routes->match(["get", "post"],'add-product', 'Admin::addProduct');
+$routes->match(["get", "post"],'list-products', 'Admin::listProducts');
+$routes->match(["get", "post"],'edit-product(:num)', 'Admin::editProduct/$1');
+$routes->match(["get", "post"],'delete-product(:num)', 'Admin::deleteProduct/$1');
+
+            /** EMPLOYEE ROUTES */
+$routes->match(["get", "post"],'employee-dashboard', 'Employee::index');
+
+$routes->match(["get", "post"],'list-category', 'Employee::listCategory');
+
+$routes->match(["get", "post"],'products', 'Employee::listProducts');
 
 /*
  * --------------------------------------------------------------------

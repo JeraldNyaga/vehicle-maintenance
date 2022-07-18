@@ -26,11 +26,7 @@
 					<span>Categories</span></a>
 			</li>
 			<li>
-				<a href="<?= base_url('list-subcategory'); ?>"><span class="las la-shopping-bag"></span>
-					<span>Subcategories</span></a>
-			</li>
-			<li>
-				<a href="<?= base_url('list-products'); ?>"><span class="las la-shopping-bag"></span>
+				<a href="<?= base_url('products'); ?>"><span class="las la-shopping-bag"></span>
 					<span>Products</span></a>
 			</li>
 			

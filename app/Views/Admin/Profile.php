@@ -1,4 +1,4 @@
-<?= $this->extend('Client/layout')?>
+<?= $this->extend('Admin/layout')?>
 <?= $this->section('content')?>
 <div class="container">
     <div class="main-body">
