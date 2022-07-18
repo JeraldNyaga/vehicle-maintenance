@@ -246,7 +246,7 @@ public function addProduct()
         $file = $this->request->getFile("product_image");
         if ($file->isValid() && ! $file->hasMoved()) {
           $name = $file->getName();
-     $file->move( 'uploads/', $name);
+     $file->move( 'assets/productImages/', $name);
 }
          $name = $this->request->getVar('name');
         $productData = [
