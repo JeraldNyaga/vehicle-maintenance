@@ -46,7 +46,7 @@
 				<?php echo ' <td>'.$row['mileage'].'</td> '; ?>
 				<td>
                                     <a href="<?= base_url('repair-info' . $row['m_id']); ?>" class="btn btn-info" >View Details</a>
-                                    
+                                    <a href="<?= base_url('admin-delete-maintenance' . $row['m_id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')" >Delete</a>
                                 </td>
 			</tr>
 		</tbody>

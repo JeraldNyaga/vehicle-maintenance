@@ -70,6 +70,15 @@ $routes->match(["get", "post"],'list-products', 'Admin::listProducts');
 $routes->match(["get", "post"],'edit-product(:num)', 'Admin::editProduct/$1');
 $routes->match(["get", "post"],'delete-product(:num)', 'Admin::deleteProduct/$1');
 
+//Maintenance routes
+$routes->match(["get", "post"],'admin-clients-logs', 'Admin::clientlogs');
+$routes->match(["get", "post"],'admin-repair-info(:num)', 'Admin::repairDetails/$1');
+$routes->match(["get", "post"],'admin-add-repair(:num)', 'Admin::newRepair/$1');
+$routes->match(["get", "post"],'admin-edit-repair(:num)', 'Admin::editRepair/$1');
+$routes->match(["get", "post"],'admin-delete-repair(:num)', 'Admin::deleteRepair/$1');
+$routes->match(["get", "post"],'admin-add-maintenance', 'Admin::newMaintenance');
+$routes->match(["get", "post"],'admin-edit-maintenance(:num)', 'Admin::editMaintenance/$1');
+$routes->match(["get", "post"],'admin-delete-maintenance(:num)', 'Admin::deleteMaintenance/$1');
             /** EMPLOYEE ROUTES */
 $routes->match(["get", "post"],'employee-dashboard', 'Employee::index');
 $routes->match(["get", "post"],'list-category', 'Employee::listCategory');
