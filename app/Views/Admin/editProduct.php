@@ -1,5 +1,5 @@
 <?= $this->extend('Admin/formLayout')?>
-<?= $this->section('itemForm')?>
+<?= $this->section('content')?>
 
 <!--Registration-->
 

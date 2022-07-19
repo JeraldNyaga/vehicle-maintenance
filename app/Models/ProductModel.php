@@ -10,7 +10,7 @@ class ProductModel extends Model
     protected $primaryKey	 ='product_id';
     protected $useAutoIncrement	= true;
     protected $useSoftDeletes = false;
-    protected $allowedFields = ['product_name', 'product_description', 'product_image',"unit_price","subcategory_id","available_quantity","created_at", "updated_at","added_by"];
+    protected $allowedFields = ['product_name', 'product_description', 'product_image',"unit_price","available_quantity","created_at"];
    
 
 
@@ -18,6 +18,6 @@ class ProductModel extends Model
     protected $useTimestamps        = true;
     protected $dateFormat           = 'datetime';
     protected $createdField         = 'created_at';
-    protected $updatedField         = 'updated_at';
+    
     
 }

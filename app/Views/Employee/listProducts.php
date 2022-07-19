@@ -3,7 +3,7 @@
 <div class="card px-2 pt-2 border-dark mb-3">
 <div class="card-header border-dark mb-3">
 	<h5>Products list</h5>
-	<h6><a href="<?= base_url('add-product'); ?>" class="btn btn-primary btn-sm float-start" >Add</a></h6>
+	
 	<h6><a href="<?= base_url('employee-dashboard'); ?>" class="btn btn-danger btn-sm float-end" >Back</a></h6>
 </div>	
 <?php
@@ -25,7 +25,7 @@
 				<th>Product Image</th>
 				<th>Unit Price</th>
 				<th>Available quantity</th>
-				<th>Action</th>
+				
 				
 			</tr>
 		</thead>
@@ -39,10 +39,7 @@
 				<?php echo ' <td>'.$row['unit_price'].'</td> '; ?>
 				
 				<?php echo ' <td>'.$row['available_quantity'].'</td> '; ?>
-				<td>
-                                    <a href="<?= base_url('Admin/Product/editProduct/' . $row['product_id']); ?>" class="btn btn-info" >Edit</a>
-                                    <a href="<?= base_url('Admin/Product/deleteProduct/' . $row['product_id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure want to delete?')">Delete</a>
-                                </td>
+				
 			</tr>
 		</tbody>
 	<?php } ?>

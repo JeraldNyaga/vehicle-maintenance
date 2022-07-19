@@ -1,5 +1,5 @@
 <?= $this->extend('Admin/formLayout')?>
-<?= $this->section('usersForm')?>
+<?= $this->section('content')?>
 
 <div class="container" >
 	<div class="row" >

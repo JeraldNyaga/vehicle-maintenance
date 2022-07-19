@@ -72,10 +72,14 @@ $routes->match(["get", "post"],'delete-product(:num)', 'Admin::deleteProduct/$1'
 
             /** EMPLOYEE ROUTES */
 $routes->match(["get", "post"],'employee-dashboard', 'Employee::index');
-
 $routes->match(["get", "post"],'list-category', 'Employee::listCategory');
-
 $routes->match(["get", "post"],'products', 'Employee::listProducts');
+$routes->match(["get", "post"],'clients-logs', 'Employee::clientlogs');
+$routes->match(["get", "post"],'repair-info(:num)', 'Employee::repairDetails/$1');
+$routes->match(["get", "post"],'add-repair(:num)', 'Employee::newRepair/$1');
+$routes->match(["get", "post"],'edit-repair(:num)', 'Employee::editRepair/$1');
+$routes->match(["get", "post"],'add-maintenance', 'Employee::newMaintenance');
+$routes->match(["get", "post"],'edit-maintenance(:num)', 'Employee::editMaintenance/$1');
 
 /*
  * --------------------------------------------------------------------

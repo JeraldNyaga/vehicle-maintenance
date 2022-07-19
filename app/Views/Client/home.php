@@ -96,13 +96,22 @@
         <li>Engine oil, power steering fluid, and other fluids, which need to be refilled, changed, or flushed.</li>
         </ol>
         </div>
-        <button type="button" class="questions">How do I keep track of routine maintenance?</button>
+        <button type="button" class="questions">How will you know your brakes are worn out?</button>
         <div class="content">
-        <p>Lorem ipsum...</p>
+        <p>Listen for squeaking, squealing, metal-on-metal grinding and other noises that indicate wear. Some minor noises can be eliminated by cleaning the brakes, but persistent, prominent noises usually mean parts are worn.
+        Brakes should also be inspected every six months.
+        </p>
         </div>
         <button type="button" class="questions">What is the process by Engine maintenance?</button>
         <div class="content">
-        <p>Lorem ipsum...</p>
+        <ol>
+            <li>Change engine oil at regular intervals</li>
+            <li>Keep check on the cooling system</li>
+            <li>Check the air filter and get it cleaned when dirty</li>
+            <li> <b>Don’t ignore the check engine light</b></li>
+            <li>Replace your fuel filter</li>
+            <li>Replace spark plugs and wires</li>
+        </ol>
         </div>
     </div>
     </div>
