@@ -12,7 +12,7 @@
     <meta name="author" content="LEFT4CODE">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/Admin.css'); ?>">
     <script src="https://cdn.tailwindcss.com"></script>
-            <title>Dashboard - Midone - Tailwind HTML Admin Template</title>
+            <title>Dashboard </title>
 
   
             <link rel="dns-prefetch" href="//developers.google.com"><link rel="dns-prefetch" href="//maps.googleapis.com"></head>
@@ -169,16 +169,11 @@
             <div class="flex mt-[4.7rem] md:mt-0">
                 <!-- BEGIN: Side Menu -->
                 <nav class="side-nav">
-                    <a href="" class="intro-x flex items-center pl-5 pt-4">
-                        <img alt="Midone - HTML Admin Template" class="w-6" src="http://rubick-laravel.left4code.com/dist/images/logo.svg">
-                        <span class="hidden xl:block text-white text-lg ml-3">
-                            Rubick
-                        </span>
-                    </a>
+                 
                     <div class="side-nav__devider my-6"></div>
                     <ul>
                         <li>
-                            <a href="javascript:;" class="side-menu side-menu--active">
+                            <a href="<?php echo base_url('admin-dashboard'); ?>" class="side-menu side-menu--active">
                                 <div class="side-menu__icon ">
                                     <i data-lucide="home"></i>
                                 </div>
@@ -203,7 +198,7 @@
                          </a>
                          <ul class="">
                             <li>
-                                <a href="<?php echo base_url('view-categories'); ?>" class="side-menu">
+                                <a href="<?php echo base_url('admin-list-category'); ?>" class="side-menu">
                                     <div class="side-menu__icon">
                                         <i data-lucide="activity"></i>
                                     </div>
@@ -212,18 +207,9 @@
                                     </div>
                                 </a>
                             </li>
+                           
                             <li>
-                                <a href="<?php echo base_url('add-product'); ?>" class="side-menu">
-                                    <div class="side-menu__icon">
-                                        <i data-lucide="activity"></i>
-                                    </div>
-                                    <div class="side-menu__title">
-                                        Add Product
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php echo base_url('list-products'); ?>" class="side-menu">
+                                <a href="<?php echo base_url('products'); ?>" class="side-menu">
                                     <div class="side-menu__icon">
                                         <i data-lucide="activity"></i>
                                     </div>
@@ -234,37 +220,7 @@
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="javascript:;" class="side-menu">
-                                    <div class="side-menu__icon">
-                                        <i data-lucide="activity"></i>
-                                    </div>
-                                    <div class="side-menu__title">
-                                        Orders
-                                        <div class="side-menu__sub-icon ">
-                                            <i data-lucide="chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                <ul class="">
-                                    <li>
-                                        <a href="<?php echo base_url('orders-list'); ?>" class="side-menu">
-                                            <div class="side-menu__icon">
-                                                <i data-lucide="zap"></i>
-                                            </div>
-                                            <div class="side-menu__title">Orders List</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="<?php echo base_url('orders-details'); ?>" class="side-menu">
-                                            <div class="side-menu__icon">
-                                                <i data-lucide="zap"></i>
-                                            </div>
-                                            <div class="side-menu__title">Orders Detail</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </li>
                     <li>
@@ -281,37 +237,40 @@
                         </a>
                         <ul class="">
                             <li>
-                                <a href="http://rubick-laravel.left4code.com/users-layout-1-page?layout=side-menu" class="side-menu">
+                                <a href="<?php echo base_url('list-Users'); ?>" class="side-menu">
                                     <div class="side-menu__icon">
                                         <i data-lucide="activity"></i>
                                     </div>
                                     <div class="side-menu__title">
-                                        Layout 1
+                                        List users
                                     </div>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://rubick-laravel.left4code.com/users-layout-2-page?layout=side-menu" class="side-menu">
+                                <a href="<?php echo base_url('create-user'); ?>" class="side-menu">
                                     <div class="side-menu__icon">
                                         <i data-lucide="activity"></i>
                                     </div>
                                     <div class="side-menu__title">
-                                        Layout 2
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://rubick-laravel.left4code.com/users-layout-3-page?layout=side-menu" class="side-menu">
-                                    <div class="side-menu__icon">
-                                        <i data-lucide="activity"></i>
-                                    </div>
-                                    <div class="side-menu__title">
-                                        Layout 3
+                                        Add user
                                     </div>
                                 </a>
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="<?php echo base_url('admin-clients-logs'); ?>" class="side-menu">
+                            <div class="side-menu__icon">
+                            <span class="iconify" data-icon="carbon:tool-kit"></span>
+                            </div>
+                            <div class="side-menu__title">
+                               Maintenance
+                                <div class="side-menu__sub-icon ">
+                                    <i data-lucide="chevron-down"></i>
+                                </div>
+                            </div>
+                        </a>
+                                       </li>
                     <li>
                         <a href="<?php echo base_url('admin-profile'); ?>" class="side-menu">
                             <div class="side-menu__icon">

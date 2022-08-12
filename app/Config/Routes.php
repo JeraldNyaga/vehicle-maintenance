@@ -40,6 +40,7 @@ $routes->set404Override();
             $routes->match(["get", "post"],'login-user', 'Auth::login');
             $routes->get('logout-user', 'Auth::logout');
                         /**Profile change */
+            $routes->match(["get", "post"],'profile','Profile::index');            
             $routes->match(["get", "post"],'client-profile', 'Profile::clientProfile');
             $routes->match(["get", "post"],'admin-profile', 'Profile::adminProfile');
             $routes->match(["get", "post"],'employee-profile', 'Profile::employeeProfile');
@@ -48,6 +49,8 @@ $routes->set404Override();
 $routes->get('client-home', 'Client::index');
 $routes->match(["get", "post"],'contact-us', 'Client::contact');
 $routes->match(["get", "post"],'book-appointment', 'Client::appointment');
+$routes->match(["get", "post"],'client-vehicle-logs', 'Client::clientlogs');
+$routes->match(["get", "post"],'client-repair-info(:num)', 'Client::repairDetails/$1');
 
                  /** ADMIN ROUTES */
 $routes->match(["get", "post"],'admin-dashboard', 'Admin::index');

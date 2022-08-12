@@ -1,4 +1,4 @@
-<?= $this->extend('Employee/listLayout')?>
+<?= $this->extend('Admin/listLayout')?>
 <?= $this->section('list')?>
 <div class="card px-2 pt-2 border-dark mb-3">
 <div class="card-header border-dark mb-3">

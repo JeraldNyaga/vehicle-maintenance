@@ -16,7 +16,13 @@ class Admin extends BaseController
     {
         return view('Admin/Dashboard.php');
     }
-	
+	private $db;
+
+  public function __construct()
+  {
+      $this->db = db_connect(); // Loading database
+  }
+
 
     public function listOrders()
     {
@@ -386,11 +392,13 @@ $productModel = new ProductModel();
 
 //MAINTENANCE FUNCTIONS
 public function clientlogs(){
+	
 	$maintenanceModel = new MaintenanceModel();
+	
 	  $data = [
 		"page_title" => 'Maintenance log',
 	  "maintenance" => $maintenanceModel->orderBy("m_id", 'ASC')->findAll(),
-	   ];
+		   ];
 	  return view ('Admin/allMaintenance', $data);
   }
   public function repairDetails($id = null){
@@ -399,7 +407,7 @@ public function clientlogs(){
 	$vehicleModel = new VehicleModel();
 	$historyModel = new HistoryModel();
 	$builder = $this->db->table("tbl_history as h");
-	$builder->select('h.hist_id,h.m_id,h.replace_date,h.quantity,t.task_name,p.product_name');
+	$builder->select('h.hist_id,h.m_id,h.replace_date,h.quantity,t.task_name,p.product_name, h.maintenance_date');
 	$builder->join('tbl_tasks as t', 'h.task_id = t.task_id'); 
 	$builder->join('tbl_product as p', 'h.product_id = p.product_id'); 
 	$builder->where('m_id', $id);

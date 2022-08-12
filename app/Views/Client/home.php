@@ -9,10 +9,9 @@
         <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Appointment</a></li>
-                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('client-vehicle-logs'); ?>">Maintenance log</a></li>
+                <li class="nav-item"><a class="nav-link" href="<?php echo base_url('contact-us'); ?>">Contact</a></li>
             </ul>
             <ul class="navbar-nav d-flex justify-content-end ">
             <?php if (!session()->get('loggedUser')) : ?>
@@ -31,13 +30,12 @@
     <div class="aboveFold" style="background:linear-gradient(0deg, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('<?php echo  base_url('assets/HomeImages/main.jpg'); ?>');display:grid;position:relative;background-size: cover;height:80%; width:100%;">
     <div class="content">
       <h1>Fix Once Perfectly</h1>
-      <h2>Safe in our hands</h2>
-      <h3>Our specialty is auto care in a professional manner</h3> 
-    <button class="btn btn-primary booknow"><a href="appointment.php">Book Appointment</a> </button>
+      <h2>Our specialty is auto care in a professional manner</h2> 
+    <button class="btn btn-primary booknow"><a href="<?php echo  base_url('book-appointment'); ?>">Book Appointment</a> </button>
       </div>
     </div>
     <div class="button">
-    <button class="btn btn-primary booknow"><a href="appointment.php">Book Your Appointment Today</a> </button>
+    <button class="btn btn-primary booknow"><a href="<?php echo  base_url('book-appointment'); ?>">Book Your Appointment Today</a> </button>
     </div>
     <div class="services">
         <h3>Our Services</h3>

@@ -18,15 +18,10 @@
                                 <div class="box p-5">
                                     <div class="flex">
                                         <i data-lucide="shopping-cart" class="report-box__icon text-primary"></i>
-                                        <div class="ml-auto">
-                                            <div class="report-box__indicator bg-success tooltip cursor-pointer" title="33% Higher than last month">
-                                                33%
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="chevron-up" data-lucide="chevron-up" class="lucide lucide-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
-                                    <div class="text-3xl font-medium leading-8 mt-6">4.710</div>
-                                    <div class="text-base text-slate-500 mt-1">Item Sales</div>
+                                    <div class="text-3xl font-medium leading-8 mt-6">150</div>
+                                    <div class="text-base text-slate-500 mt-1"> Sales</div>
                                 </div>
                             </div>
                         </div>
@@ -35,14 +30,10 @@
                                 <div class="box p-5">
                                     <div class="flex">
                                         <i data-lucide="credit-card" class="report-box__icon text-pending"></i>
-                                        <div class="ml-auto">
-                                            <div class="report-box__indicator bg-danger tooltip cursor-pointer" title="2% Lower than last month">
-                                                2% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="chevron-down" data-lucide="chevron-down" class="lucide lucide-chevron-down w-4 h-4 ml-0.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
-                                    <div class="text-3xl font-medium leading-8 mt-6">3.721</div>
-                                    <div class="text-base text-slate-500 mt-1">New Orders</div>
+                                    <div class="text-3xl font-medium leading-8 mt-6">20</div>
+                                    <div class="text-base text-slate-500 mt-1">New Repairs</div>
                                 </div>
                             </div>
                         </div>
@@ -51,13 +42,9 @@
                                 <div class="box p-5">
                                     <div class="flex">
                                         <i data-lucide="monitor" class="report-box__icon text-warning"></i>
-                                        <div class="ml-auto">
-                                            <div class="report-box__indicator bg-success tooltip cursor-pointer" title="12% Higher than last month">
-                                                12% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="chevron-up" data-lucide="chevron-up" class="lucide lucide-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
-                                    <div class="text-3xl font-medium leading-8 mt-6">2.149</div>
+                                    <div class="text-3xl font-medium leading-8 mt-6">100</div>
                                     <div class="text-base text-slate-500 mt-1">Total Products</div>
                                 </div>
                             </div>
@@ -67,14 +54,10 @@
                                 <div class="box p-5">
                                     <div class="flex">
                                         <i data-lucide="user" class="report-box__icon text-success"></i>
-                                        <div class="ml-auto">
-                                            <div class="report-box__indicator bg-success tooltip cursor-pointer" title="22% Higher than last month">
-                                                22% <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" icon-name="chevron-up" data-lucide="chevron-up" class="lucide lucide-chevron-up w-4 h-4 ml-0.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                                            </div>
-                                        </div>
+                                                            
                                     </div>
-                                    <div class="text-3xl font-medium leading-8 mt-6">152.040</div>
-                                    <div class="text-base text-slate-500 mt-1">Unique Visitor</div>
+                                    <div class="text-3xl font-medium leading-8 mt-6">15</div>
+                                    <div class="text-base text-slate-500 mt-1">New Clients</div>
                                 </div>
                             </div>
                         </div>
@@ -127,10 +110,10 @@
                 </div>
                 <!-- END: Sales Report -->
                 <!-- BEGIN: Weekly Top Seller -->
-                <div class="col-span-12 sm:col-span-6 lg:col-span-3 mt-8">
+                <div class="col-span-12 sm:col-span-6 lg:col-span-6 mt-8">
                     <div class="intro-y flex items-center h-10">
-                        <h2 class="text-lg font-medium truncate mr-5">Weekly Top Seller</h2>
-                        <a href="" class="ml-auto text-primary truncate">Show More</a>
+                        <h2 class="text-lg font-medium truncate mr-5">Repairs Rate</h2>
+                        
                     </div>
                     <div class="intro-y box p-5 mt-5">
                         <div class="mt-3">
@@ -141,273 +124,26 @@
                         <div class="w-52 sm:w-auto mx-auto mt-8">
                             <div class="flex items-center">
                                 <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                                <span class="truncate">17 - 30 Years old</span>
+                                <span class="truncate">17 - 30 Repairs</span>
                                 <span class="font-medium ml-auto">62%</span>
                             </div>
                             <div class="flex items-center mt-4">
                                 <div class="w-2 h-2 bg-pending rounded-full mr-3"></div>
-                                <span class="truncate">31 - 50 Years old</span>
+                                <span class="truncate">31 - 50 Repairs</span>
                                 <span class="font-medium ml-auto">33%</span>
                             </div>
                             <div class="flex items-center mt-4">
                                 <div class="w-2 h-2 bg-warning rounded-full mr-3"></div>
-                                <span class="truncate">>= 50 Years old</span>
+                                <span class="truncate">>= 50 Repairs</span>
                                 <span class="font-medium ml-auto">10%</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- END: Weekly Top Seller -->
-                <!-- BEGIN: Sales Report -->
-                <div class="col-span-12 sm:col-span-6 lg:col-span-3 mt-8">
-                    <div class="intro-y flex items-center h-10">
-                        <h2 class="text-lg font-medium truncate mr-5">Sales Report</h2>
-                        <a href="" class="ml-auto text-primary truncate">Show More</a>
-                    </div>
-                    <div class="intro-y box p-5 mt-5">
-                        <div class="mt-3">
-                            <div class="h-[213px]">
-                                <canvas id="report-donut-chart"></canvas>
-                            </div>
-                        </div>
-                        <div class="w-52 sm:w-auto mx-auto mt-8">
-                            <div class="flex items-center">
-                                <div class="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                                <span class="truncate">17 - 30 Years old</span>
-                                <span class="font-medium ml-auto">62%</span>
-                            </div>
-                            <div class="flex items-center mt-4">
-                                <div class="w-2 h-2 bg-pending rounded-full mr-3"></div>
-                                <span class="truncate">31 - 50 Years old</span>
-                                <span class="font-medium ml-auto">33%</span>
-                            </div>
-                            <div class="flex items-center mt-4">
-                                <div class="w-2 h-2 bg-warning rounded-full mr-3"></div>
-                                <span class="truncate">>= 50 Years old</span>
-                                <span class="font-medium ml-auto">10%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END: Sales Report -->
+                
 
-                <!-- BEGIN: Weekly Top Products -->
-                <div class="col-span-12 mt-6">
-                    <div class="intro-y block sm:flex items-center h-10">
-                        <h2 class="text-lg font-medium truncate mr-5">Weekly Top Products</h2>
-                        <div class="flex items-center sm:ml-auto mt-3 sm:mt-0">
-                            <button class="btn box flex items-center text-slate-600 dark:text-slate-300">
-                                <i data-lucide="file-text" class="hidden sm:block w-4 h-4 mr-2"></i> Export to Excel
-                            </button>
-                            <button class="ml-3 btn box flex items-center text-slate-600 dark:text-slate-300">
-                                <i data-lucide="file-text" class="hidden sm:block w-4 h-4 mr-2"></i> Export to PDF
-                            </button>
-                        </div>
-                    </div>
-                    <div class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0">
-                        <table class="table table-report sm:mt-2">
-                            <thead>
-                                <tr>
-                                    <th class="whitespace-nowrap">IMAGES</th>
-                                    <th class="whitespace-nowrap">PRODUCT NAME</th>
-                                    <th class="text-center whitespace-nowrap">STOCK</th>
-                                    <th class="text-center whitespace-nowrap">STATUS</th>
-                                    <th class="text-center whitespace-nowrap">ACTIONS</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                                                    <tr class="intro-x">
-                                        <td class="w-40">
-                                            <div class="flex">
-                                                <div class="w-10 h-10 image-fit zoom-in">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-1.jpg" title="Uploaded at 2 December 2022">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-7.jpg" title="Uploaded at 3 December 2020">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-14.jpg" title="Uploaded at 9 December 2022">
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="" class="font-medium whitespace-nowrap">Sony A7 III</a>
-                                            <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">Photography</div>
-                                        </td>
-                                        <td class="text-center">50</td>
-                                        <td class="w-40">
-                                            <div class="flex items-center justify-center text-success">
-                                                <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active
-                                            </div>
-                                        </td>
-                                        <td class="table-report__action w-56">
-                                            <div class="flex justify-center items-center">
-                                                <a class="flex items-center mr-3" href="">
-                                                    <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit
-                                                </a>
-                                                <a class="flex items-center text-danger" href="">
-                                                    <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                                                    <tr class="intro-x">
-                                        <td class="w-40">
-                                            <div class="flex">
-                                                <div class="w-10 h-10 image-fit zoom-in">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-5.jpg" title="Uploaded at 28 October 2022">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-4.jpg" title="Uploaded at 12 April 2021">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-7.jpg" title="Uploaded at 25 August 2022">
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="" class="font-medium whitespace-nowrap">Samsung Q90 QLED TV</a>
-                                            <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">Electronic</div>
-                                        </td>
-                                        <td class="text-center">50</td>
-                                        <td class="w-40">
-                                            <div class="flex items-center justify-center text-danger">
-                                                <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Inactive
-                                            </div>
-                                        </td>
-                                        <td class="table-report__action w-56">
-                                            <div class="flex justify-center items-center">
-                                                <a class="flex items-center mr-3" href="">
-                                                    <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit
-                                                </a>
-                                                <a class="flex items-center text-danger" href="">
-                                                    <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                                                    <tr class="intro-x">
-                                        <td class="w-40">
-                                            <div class="flex">
-                                                <div class="w-10 h-10 image-fit zoom-in">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-6.jpg" title="Uploaded at 7 August 2021">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-7.jpg" title="Uploaded at 6 September 2022">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-8.jpg" title="Uploaded at 3 March 2022">
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="" class="font-medium whitespace-nowrap">Sony Master Series A9G</a>
-                                            <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">Electronic</div>
-                                        </td>
-                                        <td class="text-center">108</td>
-                                        <td class="w-40">
-                                            <div class="flex items-center justify-center text-success">
-                                                <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active
-                                            </div>
-                                        </td>
-                                        <td class="table-report__action w-56">
-                                            <div class="flex justify-center items-center">
-                                                <a class="flex items-center mr-3" href="">
-                                                    <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit
-                                                </a>
-                                                <a class="flex items-center text-danger" href="">
-                                                    <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                                                    <tr class="intro-x">
-                                        <td class="w-40">
-                                            <div class="flex">
-                                                <div class="w-10 h-10 image-fit zoom-in">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-4.jpg" title="Uploaded at 25 November 2022">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-14.jpg" title="Uploaded at 8 September 2020">
-                                                </div>
-                                                <div class="w-10 h-10 image-fit zoom-in -ml-5">
-                                                    <img alt="Midone - HTML Admin Template" class="tooltip rounded-full" src="http://rubick-laravel.left4code.com/dist/images/preview-13.jpg" title="Uploaded at 25 December 2020">
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="" class="font-medium whitespace-nowrap">Nike Air Max 270</a>
-                                            <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">Sport &amp; Outdoor</div>
-                                        </td>
-                                        <td class="text-center">50</td>
-                                        <td class="w-40">
-                                            <div class="flex items-center justify-center text-success">
-                                                <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active
-                                            </div>
-                                        </td>
-                                        <td class="table-report__action w-56">
-                                            <div class="flex justify-center items-center">
-                                                <a class="flex items-center mr-3" href="">
-                                                    <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit
-                                                </a>
-                                                <a class="flex items-center text-danger" href="">
-                                                    <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                                            </tbody>
-                        </table>
-                    </div>
-                    <div class="intro-y flex flex-wrap sm:flex-row sm:flex-nowrap items-center mt-3">
-                        <nav class="w-full sm:w-auto sm:mr-auto">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a class="page-link" href="#">
-                                        <i class="w-4 h-4" data-lucide="chevrons-left"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">
-                                        <i class="w-4 h-4" data-lucide="chevron-left"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">...</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">1</a>
-                                </li>
-                                <li class="page-item active">
-                                    <a class="page-link" href="#">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">3</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">...</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">
-                                        <i class="w-4 h-4" data-lucide="chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">
-                                        <i class="w-4 h-4" data-lucide="chevrons-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <select class="w-20 form-select box mt-3 sm:mt-0">
-                            <option>10</option>
-                            <option>25</option>
-                            <option>35</option>
-                            <option>50</option>
-                        </select>
-                    </div>
-                </div>
-                <!-- END: Weekly Top Products -->
+                
          
                 </div>
             </div>

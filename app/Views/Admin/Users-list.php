@@ -41,8 +41,7 @@
                             <img alt="Midone - HTML Admin Template" class="rounded-full" src="http://rubick-laravel.left4code.com/dist/images/profile-6.jpg">
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
-                            <a href="" class="font-medium">Al Pacino</a>
-                            <div class="text-slate-500 text-xs mt-0.5">DevOps Engineer</div>
+                            <a href="" class="font-medium">Al Nyan</a>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -59,7 +58,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Al Pacino</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Frontend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -76,7 +74,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Robert De Niro</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Backend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -93,7 +90,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Tom Cruise</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -110,7 +106,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Keanu Reeves</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -127,7 +122,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Kate Winslet</a>
-                            <div class="text-slate-500 text-xs mt-0.5">DevOps Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -144,7 +138,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Tom Cruise</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Frontend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -161,7 +154,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Brad Pitt</a>
-                            <div class="text-slate-500 text-xs mt-0.5">DevOps Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -178,7 +170,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Denzel Washington</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -195,7 +186,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Angelina Jolie</a>
-                            <div class="text-slate-500 text-xs mt-0.5">DevOps Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -212,7 +202,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Johnny Depp</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Frontend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -229,7 +218,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Angelina Jolie</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -246,7 +234,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Kevin Spacey</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Backend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -263,7 +250,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Leonardo DiCaprio</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -280,7 +266,7 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Russell Crowe</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Frontend Engineer</div>
+                            
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -297,7 +283,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Johnny Depp</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -314,7 +299,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Denzel Washington</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Backend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -331,7 +315,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Kevin Spacey</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Software Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -348,7 +331,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">Robert De Niro</a>
-                            <div class="text-slate-500 text-xs mt-0.5">DevOps Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
@@ -365,7 +347,6 @@
                         </div>
                         <div class="lg:ml-2 lg:mr-auto text-center lg:text-left mt-3 lg:mt-0">
                             <a href="" class="font-medium">John Travolta</a>
-                            <div class="text-slate-500 text-xs mt-0.5">Frontend Engineer</div>
                         </div>
                         <div class="flex mt-4 lg:mt-0">
                             <button class="btn btn-primary py-1 px-2 mr-2">Message</button>
